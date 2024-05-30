@@ -20,6 +20,7 @@ body {
 }
 
 .card {
+    position: relative;
   width: 350px;
   margin: 0 auto;
   z-index: 1;
@@ -53,9 +54,10 @@ body {
 }
 
 .card__avatar {
-  position:absolute;
- top: 20%;
- right: 45%;
+    position: absolute;
+    top: 25%;
+    right: 37%;
+    
   z-index: 1;
   border-radius: 50%;
   border: 5px solid white;
@@ -63,4 +65,9 @@ body {
 
 .card__data {
   padding: 20px 20px 20px 20px;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
 }
